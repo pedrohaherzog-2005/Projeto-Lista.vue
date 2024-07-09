@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <formCompraRefatorada v-on:novo-produto="incluirProduto"/>
+        <formCompraRefatorada :titulo = "lista.length" v-on:novo-produto="incluirProduto"/>
         <div class="list-group">
             <div class="list-group-item" v-for="(item, index) in lista" v-bind:key="index">
                 <span><strong>{{item.produto}}</strong></span>

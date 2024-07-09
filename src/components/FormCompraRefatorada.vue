@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Lista de Compras</h1>
+        <h1>Lista de Compras - {{ titulo }}</h1>
         <hr/>
         <p><input type="text" v-model="produto" placeholder="Nome do produto" class="form-control"></p>
         <p><input type="text" v-model="quantidade" placeholder="Quantidade do produto" class="form-control"></p>
@@ -13,6 +13,9 @@
 </template>
 <script>
    export default {
+        props: {
+            titulo:String
+        },
         data() {
             return {
                 produto:'',
