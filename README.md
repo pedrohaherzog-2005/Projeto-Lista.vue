@@ -1,34 +1,34 @@
 # projeto-Lista
 
-This template should help get you started developing with Vue 3 in Vite.
+O modelo a seguir explica como criar e desenvolver um projeto com Vue3 no Vite.
 
-## Recommended IDE Setup
+## Configuração recomendada de IDE
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (com a extenção Vetur desativada).
 
-## Customize configuration
+## Configuração Personalizada
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Consulte a referência de configuração do Vite: [https://vitejs.dev/config/](https://vitejs.dev/config/).
 
-## Project Setup
+## Configuração do projeto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar e recarregar a configuração do projeto para desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar e reduzir para produção
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
