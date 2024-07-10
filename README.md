@@ -1,4 +1,8 @@
-# projeto-Lista
+# Projeto-Lista
+
+O modelo a seguir explica como criar e desenvolver um projeto com Vue3 no Vite.
+
+<!-- # projeto-Lista
 
 O modelo a seguir explica como criar e desenvolver um projeto com Vue3 no Vite.
 
@@ -33,3 +37,4 @@ npm run build
 ```sh
 npm run lint
 ```
+ -->
